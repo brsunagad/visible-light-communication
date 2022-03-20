@@ -1,0 +1,5 @@
+@ECHO ON
+VLC_Tx.py
+mode COM3 BAUD=9600 PARITY=n TIMEOUT=1 DATA=8
+copy VLC.txt /B \\.\COM3
+
